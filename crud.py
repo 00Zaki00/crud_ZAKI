@@ -117,8 +117,7 @@ class Pengguna:
         print("Daftar Barang:")
         toko_alat_musik.tampilkan_inventaris()
         nama_barang = input("Masukkan nama barang yang ingin Anda beli: ")
-
-        # Check if the product is in the inventory
+     
         barang = None
         for item in toko_alat_musik.inventaris:
             if item.nama == nama_barang:
@@ -144,7 +143,6 @@ class Pengguna:
 
 toko_alat_musik = TokoAlatMusik()
 
-# Program Utama
 print("Selamat datang di Toko Alat Musik!")
 while True:
     peran = input("Masukkan peran Anda (admin/pembeli), atau 'keluar' untuk keluar: ").lower()
