@@ -12,6 +12,8 @@ Jika pengguna adalah pembeli, mereka juga diminta untuk memasukkan kata sandi da
 Menu admin memiliki opsi untuk menambah, menampilkan, memperbarui, atau menghapus barang dari inventaris.
 Menu pembeli memiliki opsi untuk melihat inventaris atau melakukan transaksi dengan membeli barang dari inventaris.
 Setiap transaksi mengurangi jumlah barang yang dibeli dari inventaris dan mencatat penjualan.
+![Screenshot (26)](https://github.com/00Zaki00/crud_ZAKI/assets/129127738/0f0bd340-216b-4328-98f2-b7db5e521e99)
+![Screenshot (27)](https://github.com/00Zaki00/crud_ZAKI/assets/129127738/ea70fc5b-aa72-410e-ba78-6cc918206477)
 
 
 
