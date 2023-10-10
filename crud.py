@@ -23,7 +23,6 @@ class TokoAlatMusik:
         table.field_names = ["Nama Barang", "Jumlah", "Harga"]
         for barang in self.inventaris:
             table.add_row([barang.nama, barang.jumlah, barang.harga])
-            table.add_row([barang.nama, barang.jumlah, barang.harga])
         print(table)
 
     def perbarui_barang(self, nama_barang, jumlah_baru, harga_baru):
